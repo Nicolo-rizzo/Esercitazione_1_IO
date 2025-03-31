@@ -39,7 +39,7 @@ int main() {
     double somma = 0.0;
     // Calcolo e stampa della media per ogni i-esimo valore
     for (size_t i = 0; i < valori.size(); i++) {
-        double mappati = mappaValori(values[i]);
+        double mappati = mappaValori(valori[i]);
         somma += mappati;
         double media = somma / (i + 1);
         // Formattazione in notazione scientifica
